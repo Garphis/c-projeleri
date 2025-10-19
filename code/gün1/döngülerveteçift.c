@@ -9,10 +9,10 @@ int main() {
         printf("Sayi cift.\n");
     else
         printf("Sayi tek.\n");
-
+        
     printf("1'den %d'ye kadar sayilar:\n", sayi);
     for (int i = 1; i <= sayi; i++) {
-        printf("%d ", i);
+        printf("%d\n", i);
     }
 
     return 0;
